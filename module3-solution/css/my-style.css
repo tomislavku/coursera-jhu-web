@@ -1,0 +1,82 @@
+ {
+  	box-sizing: border-box;  	
+}
+
+
+body {
+	background-color: #c3c3c3;
+	font-family: "Comic Sans MS", sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+	color:#668e39;
+	margin-top:80px;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.navbar {
+	background-color: #7c7c7c;
+	/*float:all;*/
+
+}
+
+.navbar-default .navbar-brand {
+	color: #bce27f;
+}
+
+.menu-item .menu-item-title {
+	color:#668e39;
+}
+
+.navbar-default .navbar-nav>li{
+	width:100%;
+}
+.navbar-default .navbar-nav>li>a{
+	/*border: 1px solid #7c7c7c;*/
+	background-color: #c3c3c3;
+	color:#668e39;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	/*border: #c3c3c3;*/
+	background-color: #7c7c7c;
+	color:#bce27f;
+}
+
+.navbar-default .navbar-nav>li.active>a,.navbar-default .navbar-nav>li.active>a:hover{
+	/*border: #668e39;*/
+	background-color: #bce27f;
+	color:#7c7c7c;
+}
+
+section.menu-item{
+	background-color: #bce27f;
+	border:solid 1px #668e39;
+	margin-bottom: 5%;
+	padding:15px;
+}
+
+.menu-item-title{
+	margin-bottom: 10px;
+}
+
+div.row{
+	width: 95%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+
+div.container{
+	width: 95%;
+}
